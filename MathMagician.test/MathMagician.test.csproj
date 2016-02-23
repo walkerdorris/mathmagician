@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1AC72EF-EE75-4DB5-AF7C-0E318AAEB5CD}</ProjectGuid>
+    <ProjectGuid>{5BB23F1B-1A6A-4E78-9EE8-12D5E536BFEC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mathmagician.Tests</RootNamespace>
-    <AssemblyName>Mathmagician.Tests</AssemblyName>
+    <RootNamespace>MathMagician.test</RootNamespace>
+    <AssemblyName>MathMagician.test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,14 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="IntegerTest.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Mathmagician\Mathmagician.csproj">
-      <Project>{2accbc12-d6a1-4c00-8a30-8d33dee168b7}</Project>
-      <Name>Mathmagician</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
